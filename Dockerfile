@@ -3,4 +3,4 @@ COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 CMD [ "php", "./index.php" ]
 EXPOSE 80
-CMD ["./start.sh"]
+CMD ["/start.sh"]
