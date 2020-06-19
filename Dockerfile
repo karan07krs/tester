@@ -1,3 +1,2 @@
-from richarvey/nginx-php-fpm
-CMD [ "rm", "index.php" ]
+from trafex/alpine-nginx-php
 COPY . .
