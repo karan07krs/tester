@@ -1,2 +1,2 @@
-from golang
+from impos/go-nginx
 COPY . .
