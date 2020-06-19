@@ -29,7 +29,7 @@
          "managed",
          "--allow-unauthenticated",
          "--port",
-         "8000"
+         "80"
       ]
   }],
  "images": [
