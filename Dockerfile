@@ -1,2 +1,2 @@
-from trafex/alpine-nginx-php
+from golang
 COPY . .
