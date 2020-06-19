@@ -35,3 +35,4 @@
  "images": [
     "gcr.io/kiss-16325/new_testing_code:$COMMIT_SHA"
   ]
+}
