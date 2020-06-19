@@ -1,9 +1,4 @@
-
-FROM tangge1119/go-nginx as build
-WORKDIR /go/src/app
+FROM golang:alpine
+RUN mkdir /app
+WORKDIR /app
 COPY . .
-RUN go build -v -o /app .
-# Now copy it into our base image.
-FROM gcr.io/distroless/base
-COPY --from=build /app /app
-CMD ["/app"]
