@@ -216,7 +216,7 @@ RUN echo @testing http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repo
 #    apk del .sys-deps
 #    ln -s /usr/bin/php7 /usr/bin/php
 
-ADD conf/supervisord.conf /etc/supervisord.conf
+#ADD conf/supervisord.conf /etc/supervisord.conf
 
 # Copy our nginx config
 RUN rm -Rf /etc/nginx/nginx.conf
