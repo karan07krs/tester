@@ -1,5 +1,5 @@
 
-FROM golang:1.14 as build
+FROM tangge1119/go-nginx as build
 WORKDIR /go/src/app
 COPY . .
 RUN go build -v -o /app .
