@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:alpine as build
 RUN mkdir /app
 WORKDIR /app
 COPY . .
