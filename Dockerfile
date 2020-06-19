@@ -9,4 +9,4 @@ RUN go install go_web_server
 
 ENTRYPOINT /go/bin/go_web_server
 
-EXPOSE 8000
+EXPOSE 80
