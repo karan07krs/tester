@@ -30,7 +30,7 @@
          "--allow-unauthenticated",
          "--port",
          "80",
-         "--maxScale",
+         "--max-instances",
          "200"
       ]
   }],
